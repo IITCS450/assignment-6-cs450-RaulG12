@@ -1,0 +1,1 @@
+I modified sys_open to check if it is a symlink. symlink is implemented which is of type T_SYMLINK and stores the path in its blocks. There is a depth limit of 10 to prevent cycles from running long. 
